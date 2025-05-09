@@ -1,0 +1,197 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ARPClient",
+            "request": "launch",
+            "mainClass": "ARPClient",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "ARPServer",
+            "request": "launch",
+            "mainClass": "ARPServer",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSortClient",
+            "request": "launch",
+            "mainClass": "BubbleSortClient",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSortServer",
+            "request": "launch",
+            "mainClass": "BubbleSortServer",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "ChatClient",
+            "request": "launch",
+            "mainClass": "ChatClient",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "ChatServer",
+            "request": "launch",
+            "mainClass": "ChatServer",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "Client",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "DNSClient",
+            "request": "launch",
+            "mainClass": "DNSClient",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "DNSServer",
+            "request": "launch",
+            "mainClass": "DNSServer",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "DateClient",
+            "request": "launch",
+            "mainClass": "DateClient",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "DateServer",
+            "request": "launch",
+            "mainClass": "DateServer",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "GoBackNClient",
+            "request": "launch",
+            "mainClass": "GoBackNClient",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "GoBackNServer",
+            "request": "launch",
+            "mainClass": "GoBackNServer",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "HttpDownload",
+            "request": "launch",
+            "mainClass": "HttpDownload",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "HttpUpload",
+            "request": "launch",
+            "mainClass": "HttpUpload",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "RARPClient",
+            "request": "launch",
+            "mainClass": "RARPClient",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "RARPServer",
+            "request": "launch",
+            "mainClass": "RARPServer",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "Server",
+            "request": "launch",
+            "mainClass": "Server",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "TCPClient",
+            "request": "launch",
+            "mainClass": "TCPClient",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "TCPServer",
+            "request": "launch",
+            "mainClass": "TCPServer",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "UDPChatClient",
+            "request": "launch",
+            "mainClass": "UDPChatClient",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "UDPChatServer",
+            "request": "launch",
+            "mainClass": "UDPChatServer",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "UDPClient",
+            "request": "launch",
+            "mainClass": "UDPClient",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "UDPServer",
+            "request": "launch",
+            "mainClass": "UDPServer",
+            "projectName": "cnfile_f2dba22b"
+        },
+        {
+            "type": "java",
+            "name": "PacketCounter",
+            "request": "launch",
+            "mainClass": "PacketCounter",  // Replace with your main class
+            "vmArgs": "-Djava.library.path=${workspaceFolder}/09/native",  // Point to the folder with the .so file
+            "classPaths": [
+                "${workspaceFolder}/09/lib/jnetpcap.jar",  // Point to your JNetPcap jar file
+                "${workspaceFolder}/09/bin"
+            ],
+            "cwd": "${workspaceFolder}/09/",
+            "projectName": "cnfile_f2dba22b"
+            
+        }
+    ]
+}
