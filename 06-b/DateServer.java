@@ -9,8 +9,7 @@ public class DateServer {
             Socket client = server.accept();
             PrintWriter out = new PrintWriter(client.getOutputStream(), true);
             out.println(new Date().toString());
-            client.close();
-            server.close();
+
         }
     }
 }
